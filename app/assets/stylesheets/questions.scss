@@ -4,6 +4,7 @@
 
 $blue: #D1E4EA;
 $green: #87A878;
+$light_green: #E1E1E8;
 
 .card1 {
   background-color: $blue; // Using this variable
@@ -43,5 +44,19 @@ body {
 
 .link:hover {
   background-color: $green;
+}
+
+.form_q {
+  font-family: 'Raleway', sans-serif;
+  p {
+    font-size: 24px;
+  }
+  input {
+    font-size: 25px;
+    background-color: $blue;
+    color: black;
+    opacity: 0.5
+
+  }
 }
 
